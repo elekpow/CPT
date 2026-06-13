@@ -26,8 +26,7 @@ CiscoPacketTracer
     │ PC1     │                 │ PC2     │
     └─────────┘                 └─────────┘
 
-![shema-1.JPG]
-(https://github.com/elekpow/CPT/blob/main/img/shema-1.JPG)
+![shema-1.JPG](https://github.com/elekpow/CPT/blob/main/img/shema-1.JPG)
 
 1 настройка роутера
 
