@@ -96,3 +96,25 @@ end
 write memory
 ```
 
+
+
+3 запретить трафик между VLAN
+
+```
+enable
+configure terminal
+
+access-list 100 deny ip 192.168.10.0 0.0.0.255 192.168.20.0 0.0.0.255
+access-list 100 deny ip 192.168.20.0 0.0.0.255 192.168.10.0 0.0.0.255
+access-list 100 permit ip any any
+
+interface gigabitEthernet 0/0/0.10
+ip access-group 100 in
+exit
+
+interface gigabitEthernet 0/0/0.20
+ip access-group 100 in
+exit
+end
+write memory
+```
