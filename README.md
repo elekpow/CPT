@@ -23,7 +23,7 @@ CiscoPacketTracer
     ┌────┴────┐                 ┌────┴────┐
     │ Fa0/1   │                 │ Fa0/4   │
     │ VLAN 10 │                 │ VLAN 20 │
-    │ PC1     │                 │ PC2     │
+    │ PC0     │                 │ PC1     │
     └─────────┘                 └─────────┘
 
 ![shema-1.JPG](https://github.com/elekpow/CPT/blob/main/img/shema-1.JPG)
