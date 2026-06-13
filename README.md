@@ -27,7 +27,7 @@ CiscoPacketTracer
     └─────────┘                 └─────────┘
 
 ![shema-1.JPG]
-(https://github.com/elekpow/SysAdmin/CPT/img/shema-1.JPG)
+(https://github.com/elekpow/CPT/blob/main/img/shema-1.JPG)
 
 1 настройка роутера
 
